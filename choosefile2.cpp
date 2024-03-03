@@ -41,7 +41,7 @@ void choosefile2::on_toolButton_2_clicked()
     // remove the "lzw" character from the file name
     cFile2 = cFile2.replace("lzw.", ".");
     // append the file name and suffix to the output folder path
-    bFile2 = cFile2 ;
+    bFile2 = bFile2 + "/" + cFile2 ;
 
 }
 
